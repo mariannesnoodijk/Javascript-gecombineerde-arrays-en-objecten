@@ -47,28 +47,34 @@ const movies = [
 //     rating: 9.2,
 //     actors: [ "Tim Robbins", "Morgan Freeman", "Bob Gunton" ]
 // }
-
+console.log("Opdracht 1a:");
+console.log(movies[0]);
 
 
 // Opdracht 1b: Log de titel van het eerste object in de 'movies' array
 
 // Verwacht antwoord:
 // The Shawshank Redemption
-
+console.log("Opdracht 1b:");
+console.log(movies[0].title);
 
 // ------------------------------------------------------------------------------ //
-// Opdracht 2a: Log de hoeveel films er in de 'movies' array staan (de lengte van de array). Let op: wanneer de array langer of korter wordt, moet dit nog steeds werken. Je mag dus niet zelf tellen!
+// Opdracht 2a: Log de hoeveel films er in de 'movies' array staan (de lengte van de array). Let op: wanneer de array langer of korter wordt,
+// moet dit nog steeds werken. Je mag dus niet zelf tellen!
 
 // Verwacht antwoord:
 // 6
-
+console.log("Opdracht 2a:");
+console.log(movies.length);
 
 
 // Opdracht 2b: Log het indexnummer van de laatste film in de 'movies' array. Let op: wanneer de array langer of korter wordt, moet dit nog steeds werken!
 
 // Verwacht antwoord:
 // 5
-
+console.log("Opdracht 2b:");
+const lastIndexOfMovies = movies.length - 1;
+console.log(lastIndexOfMovies);
 
 
 // Opdracht 2c: Log het laatste object in de 'movies' array. Let op: wanneer de array langer of korter wordt, moet dit nog steeds werken!
@@ -81,6 +87,9 @@ const movies = [
 //     rating: 6.2,
 //     actors: [ 'Henry Fonda', 'Lee J. Cobb', 'Martin Balsam' ]
 // }
+console.log("Opdracht 2c:");
+const lastObjectOfMovies = movies.length -1;
+console.log(lastObjectOfMovies);
 
 
 
@@ -89,14 +98,16 @@ const movies = [
 
 // Verwachte antwoord:
 // ["John Travolta", "Samuel L. Jackson", "Uma Thurman"]
-
+console.log("Opdracht 3a:");
+console.log(movies[3].actors);
 
 
 // Opdracht 3b: Log de tweede acteur van de film "The Shawshank Redemption". Tip: je spreekt dus eerst de array, daarna het object en vervolgens weer een array aan.
 
 // Verwacht antwoord:
 // Morgan Freeman
-
+console.log("Opdracht 3b:");
+console.log(movies[0].actors[1]);
 
 
 // Opdracht 3c: Log de laatste acteur van de laatste film in 'movies' array. Let op: wanneer de array langer of korter wordt, of wanneer er meer of minder acteurs in dit rijtje staan, moet dit nog steeds werken!
